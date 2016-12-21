@@ -15,6 +15,7 @@ public class WelcomePageServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		PrintWriter writer = resp.getWriter();
 		writer.write("Hello world");
+		writer.write("\n");
 		writer.flush();
 		writer.close();
 	}
