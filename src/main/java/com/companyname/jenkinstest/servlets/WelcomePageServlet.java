@@ -20,6 +20,7 @@ public class WelcomePageServlet extends HttpServlet {
 		writer.write("test2");
 		writer.write("test3");
 		writer.write("test4");
+		writer.write("test5");
 		writer.flush();
 		writer.close();
 	}
